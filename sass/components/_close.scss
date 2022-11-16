@@ -1,0 +1,29 @@
+.close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    right: 8px;
+    background-color: var(--color-background);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    fill: var(--black-color);
+
+    &__icon{
+        transition: fill var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
+
+        .close:hover &{
+            fill: var(--color-accent)
+        }
+    
+        .close:focus &{
+            fill: var(--color-accent)
+        }
+    }
+}
+

@@ -1,0 +1,52 @@
+.address{
+    text-decoration: none;
+    
+    &__card{
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    &__item:not(:last-child){
+        margin-bottom: 9px;
+    }
+
+    &__link{
+        text-decoration: none;
+        font-style: normal;
+        color: var(--color-background);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        transition: color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover{
+            color:var(--color-accent);
+        }
+
+        &:focus{
+            color:var(--color-accent);
+        }
+    }
+    
+    &__link-contact{
+        text-decoration: none;
+        font-style: normal; 
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        transition: color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover{
+            color:var(--color-accent);
+        }
+
+        &:focus{
+            color:var(--color-accent);
+        }
+
+    }
+}

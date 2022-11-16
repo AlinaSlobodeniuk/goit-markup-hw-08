@@ -1,0 +1,125 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: var(--color-brend);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    &__box{
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__logo{
+        font-family: 'Raleway', sans-serif;
+        color:var(--color-background);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+    }
+
+    &__address{
+        margin-top: 20px;
+    }
+
+    &__social-box{
+        margin-left: 70px;
+    }
+
+    &__social-title{
+        display: block;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-background);
+        margin-bottom: 20px;
+    }
+
+    &__social-list {
+        gap: 10px;
+        margin: 0;
+    }
+
+    &__e-mail-input {
+        display: flex;
+        margin-left: auto;
+    }
+
+    &__label {
+        display: flex;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-background); 
+    }
+
+    &__form-box{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    &__input {
+        box-sizing: border-box;
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        outline: none;
+        padding: 15px 0 15px 16px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        margin-right: 12px;
+    }
+
+    &__input-button {
+        width: 200px;
+        height: 50px;
+        background: var(--color-accent);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        padding: 10px 28px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--color-background);
+    }
+
+    &__icon {
+        fill: var(--color-background);
+        margin-left: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

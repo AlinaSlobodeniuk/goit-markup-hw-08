@@ -1,0 +1,23 @@
+.third{
+    padding-top: 0;
+    
+    &__title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__cards{
+        margin: 0;
+        display: flex;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__card:not(:last-child){
+        margin-right: 30px;
+    }
+}

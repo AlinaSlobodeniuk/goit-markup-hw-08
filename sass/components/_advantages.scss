@@ -1,0 +1,32 @@
+.advantages{
+    margin: 0;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    
+    &__item{
+        width: 270px;
+    }
+
+    &__item:not(:last-child){
+        margin-right: 30px;
+    }
+
+    &__subtitle{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    
+    &__paragraph{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7; 
+        letter-spacing: 0.03em;    
+        color: var(--text-color-optional);
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
