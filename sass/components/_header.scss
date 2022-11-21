@@ -3,7 +3,9 @@
     border-bottom: 1px solid rgba(236, 236, 236, 1);
     
     &__container{
-        display: flex; 
+        display: flex;
+        margin: 10px 0;
+
     }
 
     &__nav{
@@ -22,9 +24,19 @@
     &__menu{
         display: flex;
         margin-left: auto;
+        border: none;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+
+
         @media screen and (min-width: 768px){
             display: none; 
         }
+    }
+
+    &__icon{
+        background-color: var(--color-background);
     }
 
     &__list{
