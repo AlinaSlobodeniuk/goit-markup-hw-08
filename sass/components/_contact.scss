@@ -4,10 +4,14 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     align-items: center;
     padding: 0;
+
+    @media screen and (min-width: 768px){
+        display: flex; 
+    }
     
     &__item{
         text-decoration: none;
