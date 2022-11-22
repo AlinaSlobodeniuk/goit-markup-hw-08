@@ -542,6 +542,13 @@ ul {
     margin: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__container {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .header__nav {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
