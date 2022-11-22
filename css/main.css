@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --color-brend:#2f303a;
   --color-accent:#2196f3;
@@ -806,8 +807,12 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .member {
-    margin-right: 30px;
     margin-bottom: 30px;
+  }
+}
+@media screen and (mшт-width: 768px) {
+  .member {
+    margin-right: 30px;
   }
 }
 .member__image {
