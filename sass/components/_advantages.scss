@@ -1,15 +1,40 @@
 .advantages{
     margin: 0;
-    display: flex;
+    display: block;
     padding: 0;
     list-style: none;
     
-    &__item{
-        width: 270px;
-    }
 
-    &__item:not(:last-child){
-        margin-right: 30px;
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    &__item{
+        max-width: 450px;
+
+        &:not(:last-child){
+            @media screen and (max-width: 767px){
+                margin-bottom: 30px;
+            }
+        }
+        
+        @media screen and (min-width: 768px) and (max-width: 1199px){
+            max-width: 354px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media screen and (min-width: 768px){
+            width: 270px;
+        }
+
+        &:not(:last-child){
+            @media screen and (min-width: 1200px){  
+                margin-right: 30px;
+            }
+        }
     }
 
     &__subtitle{

@@ -8,11 +8,17 @@
     display: flex;
     flex-wrap: wrap;
 
+    @media screen and (max-width: 768px){
+        font-size: 24px;
+        line-height: 1.16;
+        margin: 16px 0 16px 15px;
+    }
 
     @media screen and (min-width: 768px){
         font-size: 26px;
-        line-height: 1.2; 
+        line-height: 1.2;
     }
+
     
         &__accent{
             color: var(--color-accent);

@@ -24,6 +24,12 @@
 
 .mobile-menu__icon {
     background-color: var(--color-background);
+    fill: var(--text-color);
+    transition: fill var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
+        
+    &:hover{
+        fill: var(--color-accent);
+    }
 }
 
 .mobile-menu__nav {
