@@ -326,6 +326,11 @@ ul {
 .contact__item:focus {
   color: var(--color-accent);
 }
+@media screen and (min-width: 768px) {
+  .contact__item {
+    padding: 5px 0;
+  }
+}
 .contact__icon {
   fill: currentColor;
   margin-right: 10px;
@@ -532,6 +537,11 @@ ul {
   display: flex;
   margin: 10px 0;
 }
+@media screen and (min-width: 768px) {
+  .header__container {
+    margin: 0;
+  }
+}
 .header__nav {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -614,13 +624,32 @@ ul {
   height: 4px;
   background-color: currentColor;
   border-radius: 2px;
-  margin-top: 28px;
+  margin-top: 37px;
+}
+@media screen and (min-width: 1200px) {
+  .header__link--current::after {
+    margin-top: 28px;
+  }
 }
 .header__contact {
   margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
   gap: 50px;
+}
+@media screen and (min-width: 768px) {
+  .header__contact {
+    display: inline-block;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .hero {
@@ -767,12 +796,29 @@ ul {
   background-color: var(--color-background);
 }
 
+.mobile-menu__nav {
+  padding: 0;
+  margin-bottom: 306px;
+}
+
 .mobile-menu__list {
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-bottom: 32px;
+}
+.mobile-menu__list:hover {
+  color: var(--color-accent);
+}
+
+.mobile-menu__contact {
+  padding: 0;
+}
+
+.mobile-menu__item {
+  margin-bottom: 32px;
 }
 
 .mobile-menu__tel {
@@ -780,7 +826,41 @@ ul {
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--color-accent);
+}
+
+.mobile-menu__mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-color-optional);
+}
+
+.mobile-menu__networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  margin-top: 64px;
+}
+
+.mobile-menu__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+}
+
+.mobile-menu__token {
+  color: rgba(33, 33, 33, 0.2);
+  margin: 0 10px;
 }
 
 .modal {

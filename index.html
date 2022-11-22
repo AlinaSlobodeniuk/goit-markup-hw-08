@@ -54,12 +54,12 @@
         </ul>
         <button class="header__menu js-open-menu" type="button">
           <svg class="header__icon" width="40" height="40">
-            <use href="./images/icons.svg#icon-menu"></use>
+            <use class="header__symbol" href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
       </div>
     </header>
-    <!-- <main>
+    <main>
       <section class="section hero">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
@@ -424,7 +424,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <div class="mobile-menu js-menu-container">
       <button class="mobile-menu__close js-close-menu" type="button">
@@ -439,24 +439,27 @@
           <li href="#" class="mobile-menu__list">Контакти</li>
         </ul>
         <ul class="mobile-menu__contact">
-          <li>
+          <li class="mobile-menu__item">
             <a class="mobile-menu__tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
-          <li>
+          <li class="mobile-menu__item">
             <a class="mobile-menu__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
         </ul>
         <ul class="mobile-menu__networks">
-          <li class="mobile-menu__box">
+          <li>
             <a href="" class="mobile-menu__link">Instagram</a>
           </li>
-          <li class="mobile-menu__box">
+          <span class="mobile-menu__token">|</span>
+          <li>
             <a href="" class="mobile-menu__link">Twitter</a>
           </li>
-          <li class="mobile-menu__box">
+          <span class="mobile-menu__token">|</span>
+          <li>
             <a href="" class="mobile-menu__link">Facebook</a>
           </li>
-          <li class="mobile-menu__box">
+          <span class="mobile-menu__token">|</span>
+          <li>
             <a href="" class="mobile-menu__link">LinkedIn</a>
           </li>
         </ul>
