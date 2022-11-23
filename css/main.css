@@ -1112,6 +1112,12 @@ ul {
             justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .team__card {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
 
 .overlay__link {
   display: block;
