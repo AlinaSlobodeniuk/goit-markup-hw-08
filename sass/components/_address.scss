@@ -1,10 +1,22 @@
 .address{
     text-decoration: none;
+
+    @media screen and (max-width: 1199px){
+        display: flex;
+        justify-content: center;
+    }
     
     &__card{
         padding-left: 0;
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    &__item{
+        @media screen and (max-width: 1199px){
+            display: flex;
+            justify-content: center;
+        }
     }
     
     &__item:not(:last-child){

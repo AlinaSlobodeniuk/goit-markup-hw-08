@@ -19,8 +19,12 @@
         line-height: 1.2;
     }
 
+    @media screen and (max-width: 1199px){
+        justify-content: center;
+    }
+
     
-        &__accent{
-            color: var(--color-accent);
+    &__accent{
+        color: var(--color-accent);
 }
 }

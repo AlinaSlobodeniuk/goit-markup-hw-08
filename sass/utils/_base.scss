@@ -2,6 +2,10 @@ body{
     background-color: var(--color-background);
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
+
+    @media screen and (max-width: 1199px){
+      margin: 0;
+  }
     }
     
     h1,
