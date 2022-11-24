@@ -3,6 +3,7 @@
     display: block;
     padding: 0;
     list-style: none;
+    gap: 30px;
     
 
     @media screen and (min-width: 768px){
@@ -14,27 +15,18 @@
     &__item{
         max-width: 450px;
 
-        &:not(:last-child){
-            @media screen and (max-width: 767px){
-                margin-bottom: 30px;
-            }
-        }
         
-        @media screen and (min-width: 768px) and (max-width: 1199px){
+        
+        @media screen and (min-width: 768px){
             max-width: 354px;
-            margin-right: 30px;
-            margin-bottom: 30px;
+          
         }
 
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 1200px){
             width: 270px;
         }
 
-        &:not(:last-child){
-            @media screen and (min-width: 1200px){  
-                margin-right: 30px;
-            }
-        }
+     
     }
 
     &__subtitle{

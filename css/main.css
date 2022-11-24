@@ -212,6 +212,7 @@ ul {
   display: block;
   padding: 0;
   list-style: none;
+  gap: 30px;
 }
 @media screen and (min-width: 768px) {
   .advantages {
@@ -228,26 +229,14 @@ ul {
 .advantages__item {
   max-width: 450px;
 }
-@media screen and (max-width: 767px) {
-  .advantages__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .advantages__item {
-    max-width: 354px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-  }
-}
 @media screen and (min-width: 768px) {
   .advantages__item {
-    width: 270px;
+    max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .advantages__item:not(:last-child) {
-    margin-right: 30px;
+  .advantages__item {
+    width: 270px;
   }
 }
 .advantages__subtitle {
@@ -534,6 +523,18 @@ ul {
     display: flex;
   }
 }
+@media screen and (min-width: 768px) {
+  .footer__nav-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__address-box {
+    margin-left: 76px;
+  }
+}
 .footer__logo {
   font-family: "Raleway", sans-serif;
   color: var(--color-background);
@@ -546,9 +547,19 @@ ul {
 .footer__address {
   margin-top: 20px;
 }
+.footer__social-box {
+  margin-top: 60px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__social-box {
+    margin-top: 30px;
+    margin-left: 165px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__social-box {
     margin-left: 70px;
+    margin-top: 10px;
   }
 }
 .footer__social-title {
@@ -590,6 +601,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+  margin-top: 60px;
 }
 @media screen and (max-width: 1199px) {
   .footer__e-mail-input {
@@ -669,6 +681,7 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 20px;
   }
 }
 .footer__input-button {
