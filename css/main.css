@@ -959,6 +959,11 @@ ul {
 .member__image {
   border-radius: 0px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .member__image {
+    width: 354px;
+  }
+}
 .member__box {
   padding: 30px 5px;
 }

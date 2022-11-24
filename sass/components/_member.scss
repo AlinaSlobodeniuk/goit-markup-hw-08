@@ -9,6 +9,10 @@
 
     &__image{
         border-radius: 0px;
+
+        @media screen and (min-width: 768px) and (max-width: 1199px){
+            width: 354px;
+        }
     }
 
     &__box{
