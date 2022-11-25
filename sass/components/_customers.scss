@@ -35,15 +35,15 @@
     }
 
     &__box{
-        width: 210px;
+        flex-basis: calc((100% - 30px) / 2);
         height: 92px;
 
         @media screen and (min-width: 768px){
-            width: 226px;
+            flex-basis: calc((100% - 60px) / 3);
         }
 
         @media screen and (min-width: 1200px){
-            width: 170px;
+            flex-basis: calc((100% - 150px) / 6);
         }
     }
 

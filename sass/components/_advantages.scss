@@ -15,8 +15,12 @@
     &__item{
         max-width: 450px;
 
-        
-        
+        @media screen and (max-width: 767px){
+            &:not(:last-child){
+                margin-bottom: 30px;
+            } 
+        }
+
         @media screen and (min-width: 768px){
             max-width: 354px;
           
@@ -35,6 +39,10 @@
         line-height: 1.1;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+
+        @media screen and (max-width: 767px){
+            text-align: center; 
+        }
     }
     
     &__paragraph{
