@@ -872,6 +872,7 @@ ul {
   padding-top: 118px;
   padding-bottom: 118px;
   background-color: var(--color-background-hero);
+  background-image: var(--gradient), url(/./images/heromobile@1x.jpg);
   background-repeat: no-repeat;
   background-size: 1600px;
   background-position: center;
