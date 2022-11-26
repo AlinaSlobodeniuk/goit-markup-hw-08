@@ -122,15 +122,30 @@
           <h2 class="third__title">Чим ми займаємося</h2>
           <ul class="third__cards">
             <li class="third__card activity">
-              <img src="./images/img(1).jpg" alt="Написання коду за комп'ютером" width="370" />
+              <img
+                srcset="./images/desktop@1x.jpg, ./images/desktop@2x.jpg"
+                src="./images/desktop@1x.jpg"
+                alt="Написання коду за комп'ютером"
+                width="370"
+              />
               <div class="activity__name">Десктопні додатки</div>
             </li>
             <li class="third__card activity">
-              <img src="./images/img(2).jpg" alt="Розроблення мобільного додатку" width="370" />
+              <img
+                srcset="./images/desktop2@1x.jpg, ./images/desktop2@2x.jpg"
+                src="./images/desktop2@1x.jpg"
+                alt="Розроблення мобільного додатку"
+                width="370"
+              />
               <div class="activity__name">Мобільні додатки</div>
             </li>
             <li class="third__card activity">
-              <img src="./images/img(3).jpg" alt="Коло кольорів" width="370" />
+              <img
+                srcset="./images/desktop3@1x.jpg, ./images/desktop3@2x.jpg"
+                src="./images/desktop3@1x.jpg"
+                alt="Коло кольорів"
+                width="370"
+              />
               <div class="activity__name">Дизайнерські рішення</div>
             </li>
           </ul>
@@ -141,12 +156,29 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__card">
             <li class="member">
-              <img
-                class="member__image"
-                src="./images/img(4).jpg"
-                alt="Ігор Дем'яненко"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="./images/igordesktop@1x.jpg 1x, ./images/igordesktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/igortablet@1x.jpg 1x, ./images/igortablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/igormobile@1x.jpg 1x, ./images/igormobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="member__image"
+                  src="./images/igormobile@1x.jpg"
+                  alt="Ігор Дем'яненко"
+                  width="270"
+                />
+              </picture>
+
               <div class="member__box">
                 <h3 class="member__subtitle">Ігор Дем'яненко</h3>
                 <p class="member__paragraph">Product Designer</p>
@@ -179,7 +211,28 @@
               </div>
             </li>
             <li class="member">
-              <img class="member__image" src="./images/img(5).jpg" alt="Ольга Рєпіна" width="270" />
+              <picture>
+                <source
+                  srcset="./images/olgadesktop@1x.jpg 1x, ./images/olgadesktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/olgatablet@1x.jpg 1x, ./images/olgatablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/olgamobile@1x.jpg 1x, ./images/olgamobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="member__image"
+                  src="./images/olgamobile@1x.jpg"
+                  alt="Ольга Рєпіна"
+                  width="270"
+                />
+              </picture>
               <div class="member__box">
                 <h3 class="member__subtitle">Ольга Рєпіна</h3>
                 <p class="member__paragraph">Frontend Developer</p>
@@ -212,12 +265,28 @@
               </div>
             </li>
             <li class="member">
-              <img
-                class="member__image"
-                src="./images/img(6).jpg"
-                alt="Микола Тарасов"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="./images/mykoladesktop@1x.jpg 1x, ./images/mykoladesktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/mykolatablet@1x.jpg 1x, ./images/mykolatablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/mykolamobile@1x.jpg 1x, ./images/mykolamobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="member__image"
+                  src="./images/mykolamobile@1x.jpg"
+                  alt="Микола Тарасов"
+                  width="270"
+                />
+              </picture>
               <div class="member__box">
                 <h3 class="member__subtitle">Микола Тарасов</h3>
                 <p class="member__paragraph">Marketing</p>
@@ -250,12 +319,28 @@
               </div>
             </li>
             <li class="member">
-              <img
-                class="member__image"
-                src="./images/img(7).jpg"
-                alt="Михайло Єрмаков"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="./images/mykhaylodesktop@1x.jpg 1x, ./images/mykhaylodesktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/mykhaylotablet@1x.jpg 1x, ./images/mykhaylotablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/mykhaylomobile@1x.jpg 1x, ./images/mykhaylomobile@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="member__image"
+                  src="./images/mykhaylomobile@1x.jpg"
+                  alt="Михайло Єрмаков"
+                  width="270"
+                />
+              </picture>
               <div class="member__box">
                 <h3 class="member__subtitle">Михайло Єрмаков</h3>
                 <p class="member__paragraph">UI Designer</p>

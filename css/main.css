@@ -12,6 +12,7 @@
   --color-background-hero: #c4c4c4;
   --color-border: #afb1b8;
   --timing-duration: 250ms;
+  --gradient: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
   --logo-font-family: @font-face {
                       font-family: "Raleway";
                       font-style: normal;
@@ -73,7 +74,7 @@ ul {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -871,15 +872,39 @@ ul {
   padding-top: 118px;
   padding-bottom: 118px;
   background-color: var(--color-background-hero);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/img\(21\).jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img\(21\).jpg);
   background-repeat: no-repeat;
   background-size: 1600px;
   background-position: center;
   margin: auto;
 }
+@media screen and (max-width: 767px), screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--gradient), url(/./images/heromobile@2x.jpg);
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: var(--gradient), url(/./images/heromobile@1x.jpg);
+  }
+}
+@media screen and (min-width: 768px), screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--gradient), url(/./images/herotablet@2x.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: var(--gradient), url(/./images/herotablet@1x.jpg);
+  }
+}
+@media screen and (min-width: 1200px), screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--gradient), url(/./images/herodesktop@2x.jpg);
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero {
+    background-image: var(--gradient), url(/./images/herodesktop@1x.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
   }
