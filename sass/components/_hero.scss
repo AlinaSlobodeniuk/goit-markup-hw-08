@@ -3,6 +3,8 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    background-image: var(--gradient), url(../../images/heromobile@1x.jpg);
+    background-size: cover;
     padding-top: 118px;
     padding-bottom: 118px;
     background-color: var(--color-background-hero);
@@ -11,37 +13,27 @@
     background-position: center;
     margin: auto;
 
-    @media screen and (max-width: 767px), screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-        background-image: var(--gradient), url(../images/heromobile@2x.jpg);
-        background-size: cover;
-    }
+    @media screen and (max-width: 767px), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+        background-image: var(--gradient), url(../../images/heromobile@2x.jpg);
+    };
     
-    @media screen and (max-width: 767px) {
-        background-image: var(--gradient), url(../images/heromobile@1x.jpg);
-        background-size: cover;
-    }
-    
-    @media screen and (min-width: 768px), screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-        background-image: var(--gradient), url(../images/herotablet@2x.jpg);
-        background-size: cover;
-    }
+    @media screen and (min-width: 768px), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+        background-image: var(--gradient), url(../../images/herotablet@2x.jpg);
+    };
     
     @media screen and (min-width: 768px) {
-        background-image: var(--gradient), url(../images/herotablet@1x.jpg);
-        background-size: cover;
-    }
+        background-image: var(--gradient), url(../../images/herotablet@1x.jpg);
+    };
     
-    @media screen and (min-width: 1200px), screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-        background-image: var(--gradient), url(../images/herodesktop@2x.jpg);
-        background-size: cover;
-    }
+    @media screen and (min-width: 1200px), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+        background-image: var(--gradient), url(../../images/herodesktop@2x.jpg);
+    };
     
     @media screen and (min-width: 1200px) {
-        background-image: var(--gradient), url(../images/herodesktop@1x.jpg);
-        background-size: cover;
+        background-image: var(--gradient), url(../../images/herodesktop@1x.jpg);
         padding-top: 200px;
         padding-bottom: 200px;
-    }
+    };
 
     
     &__title{
