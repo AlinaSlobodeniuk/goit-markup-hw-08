@@ -1108,6 +1108,9 @@ ul {
   color: var(--text-color);
   margin-bottom: 32px;
 }
+.mobile-menu__list--current {
+  color: var(--color-accent);
+}
 .mobile-menu__list:hover {
   color: var(--color-accent);
 }

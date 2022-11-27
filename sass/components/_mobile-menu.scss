@@ -44,6 +44,9 @@
     color: var(--text-color);
     margin-bottom: 32px;
 
+    &--current{
+        color: var(--color-accent);
+    }
 
     &:hover{
         color: var(--color-accent);
