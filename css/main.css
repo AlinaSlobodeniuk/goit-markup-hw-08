@@ -610,13 +610,13 @@ ul {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  margin-top: 60px;
 }
 @media screen and (max-width: 1199px) {
   .footer__e-mail-input {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 60px;
   }
 }
 .footer__label {
