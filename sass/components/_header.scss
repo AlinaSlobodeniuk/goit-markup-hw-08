@@ -1,10 +1,16 @@
 .header{
     background-color: var(--color-background);
     border-bottom: 1px solid rgba(236, 236, 236, 1);
+
+    @media screen and (min-width: 480px) and (max-width: 1199px){
+        display: flex;
+        justify-content: center;
+    }
     
     &__container{
         display: flex;
-        margin-left: 0;
+        margin: 0;
+        align-items: center;
 
         @media screen and (min-width: 768px){
             margin: 0; 
@@ -25,15 +31,21 @@
     }
 
     &__logo{
-        margin-right: 93px;
+        margin-right: 87px;
         margin-left: 0;
         color:var(--black-color);
+
+        @media screen and (min-width: 1200px){
+            margin-right: 93px;
+        } 
     }
 
     &__menu{
-        position: absolute;
-        top: 10px;
-        right: 10px;
+        // position: absolute;
+        // top: 10px;
+        // right: 10px;
+        display: flex;
+        margin-left: auto;
         border: none;
         padding: 0;
         width: 40px;
@@ -67,7 +79,8 @@
         gap: 50px;
 
         @media screen and (min-width: 768px){
-            display: flex; 
+            display: flex;
+            padding: 0;
         }
 
         @media screen and (min-width: 1200px){
