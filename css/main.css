@@ -305,6 +305,10 @@ ul {
   background-color: var(--color-accent);
   border: none;
 }
+.modal__checkbox:checked + .checkbox__icon {
+  background-color: var(--color-accent);
+  border: none;
+}
 .checkbox:focus-within.checkbox__icon {
   border-color: var(--color-accent);
 }
@@ -390,6 +394,9 @@ ul {
 .contact__icon {
   fill: currentColor;
   margin-right: 10px;
+}
+.contact__box {
+  margin-left: -4px;
 }
 
 .container {
@@ -892,36 +899,33 @@ ul {
   background-color: var(--color-background-hero);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   margin: auto;
 }
 @media screen and (max-width: 767px) {
   .hero {
     background-image: var(--gradient), url(../images/heromobile@1x.jpg);
-    background-size: cover;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .hero {
     background-image: var(--gradient), url(../images/heromobile@2x.jpg);
-    background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
     background-image: var(--gradient), url(../images/herotablet@1x.jpg);
-    background-size: 1600px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
     background-image: var(--gradient), url(../images/herotablet@2x.jpg);
-    background-size: 1600px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: var(--gradient), url(../images/herodesktop@1x.jpg);
-    background-size: cover;
+    background-size: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -929,7 +933,7 @@ ul {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
     background-image: var(--gradient), url(../images/herodesktop@2x.jpg);
-    background-size: cover;
+    background-size: 1600px;
   }
 }
 .hero__title {
@@ -1146,7 +1150,7 @@ ul {
 }
 @media screen and (max-width: 480px) {
   .mobile-menu__tel {
-    font-size: 29px;
+    font-size: 23px;
   }
 }
 
@@ -1184,7 +1188,7 @@ ul {
 }
 @media screen and (max-width: 480px) {
   .mobile-menu__link {
-    font-size: 13px;
+    font-size: 9px;
   }
 }
 

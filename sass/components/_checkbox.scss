@@ -4,27 +4,23 @@
    &__input{
         appearance: none;
         transition: border-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
-
-   }
+    }
 
     &__icon{
         border: 2px solid var(--text-color);
         border-radius: 1px;
-        transition: background-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1), border-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
-    }
-     &__icon{
+        transition: background-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1), border-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1); 
+
         .checkbox__input:checked + &{
             background-color: var(--color-accent);
-            border: none;}
+            border: none;
         }
 
-    &:focus-within.checkbox__icon{border-color: var(--color-accent)}   
-    
-}
+        .modal__checkbox:checked + &{
+            background-color: var(--color-accent);
+            border: none;}
 
+    }
 
-
-
-
-
-
+     &:focus-within.checkbox__icon{border-color: var(--color-accent)}
+}      
