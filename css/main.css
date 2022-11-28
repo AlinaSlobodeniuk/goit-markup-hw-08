@@ -1099,6 +1099,11 @@ ul {
   padding: 0;
   margin-bottom: 306px;
 }
+@media screen and (max-width: 480px) {
+  .mobile-menu__nav {
+    margin-bottom: 206px;
+  }
+}
 
 .mobile-menu__list {
   font-weight: 500;
@@ -1113,6 +1118,11 @@ ul {
 }
 .mobile-menu__list:hover {
   color: var(--color-accent);
+}
+@media screen and (max-width: 480px) {
+  .mobile-menu__list {
+    font-size: 35px;
+  }
 }
 
 .mobile-menu__contact {
@@ -1131,6 +1141,11 @@ ul {
   text-decoration: none;
   color: var(--color-accent);
 }
+@media screen and (max-width: 480px) {
+  .mobile-menu__tel {
+    font-size: 29px;
+  }
+}
 
 .mobile-menu__mail {
   font-weight: 500;
@@ -1139,6 +1154,11 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--text-color-optional);
+}
+@media screen and (max-width: 480px) {
+  .mobile-menu__mail {
+    font-size: 20px;
+  }
 }
 
 .mobile-menu__networks {
@@ -1159,6 +1179,11 @@ ul {
   letter-spacing: 0.02em;
   color: var(--color-accent);
 }
+@media screen and (max-width: 480px) {
+  .mobile-menu__link {
+    font-size: 13px;
+  }
+}
 
 .mobile-menu__token {
   color: rgba(33, 33, 33, 0.2);
@@ -1175,6 +1200,12 @@ ul {
   border-radius: 4px;
   padding: 40px;
 }
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 350px;
+    height: 581px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
@@ -1189,6 +1220,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
+}
+@media screen and (max-width: 480px) {
+  .modal__title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal__title {
