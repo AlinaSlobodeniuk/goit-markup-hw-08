@@ -126,10 +126,7 @@
                 srcset="./images/desktop@1x.jpg 1x, ./images/desktop@2x.jpg 2x"
                 src="./images/desktop@1x.jpg"
                 alt="Написання коду за комп'ютером"
-                <!--
                 width="370"
-                --
-              />
               />
               <div class="activity__name">Десктопні додатки</div>
             </li>
@@ -138,10 +135,7 @@
                 srcset="./images/desktop2@1x.jpg 1x, ./images/desktop2@2x.jpg 2x"
                 src="./images/desktop2@1x.jpg"
                 alt="Розроблення мобільного додатку"
-                <!--
                 width="370"
-                --
-              />
               />
               <div class="activity__name">Мобільні додатки</div>
             </li>
@@ -150,10 +144,7 @@
                 srcset="./images/desktop3@1x.jpg 1x, ./images/desktop3@2x.jpg 2x"
                 src="./images/desktop3@1x.jpg"
                 alt="Коло кольорів"
-                <!--
                 width="370"
-                --
-              />
               />
               <div class="activity__name">Дизайнерські рішення</div>
             </li>
@@ -519,9 +510,15 @@
       </button>
       <div class="mobile-menu__container">
         <ul class="mobile-menu__nav">
-          <li href="./index.html" class="mobile-menu__list mobile-menu__list--current">Студія</li>
-          <li href="./portfolio.html" class="mobile-menu__list">Портфоліо</li>
-          <li href="#" class="mobile-menu__list">Контакти</li>
+          <li class="mobile-menu__list">
+            <a class="mobile-menu__links mobile-menu__links--current" href="./index.html">Студія</a>
+          </li>
+          <li class="mobile-menu__list">
+            <a class="mobile-menu__links" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="mobile-menu__list">
+            <a class="mobile-menu__links" href="#">Контакти</a>
+          </li>
         </ul>
         <ul class="mobile-menu__contact">
           <li class="mobile-menu__item">
@@ -534,16 +531,19 @@
         <ul class="mobile-menu__networks">
           <li>
             <a href="" class="mobile-menu__link">Instagram</a>
+            <span class="mobile-menu__token">|</span>
           </li>
-          <span class="mobile-menu__token">|</span>
+
           <li>
             <a href="" class="mobile-menu__link">Twitter</a>
+            <span class="mobile-menu__token">|</span>
           </li>
-          <span class="mobile-menu__token">|</span>
+
           <li>
             <a href="" class="mobile-menu__link">Facebook</a>
+            <span class="mobile-menu__token">|</span>
           </li>
-          <span class="mobile-menu__token">|</span>
+
           <li>
             <a href="" class="mobile-menu__link">LinkedIn</a>
           </li>

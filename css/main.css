@@ -1106,21 +1106,25 @@ ul {
 }
 
 .mobile-menu__list {
+  margin-bottom: 32px;
+}
+
+.mobile-menu__links {
+  text-decoration: none;
+  color: var(--text-color);
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: var(--text-color);
-  margin-bottom: 32px;
 }
-.mobile-menu__list--current {
+.mobile-menu__links--current {
   color: var(--color-accent);
 }
-.mobile-menu__list:hover {
+.mobile-menu__links:hover {
   color: var(--color-accent);
 }
 @media screen and (max-width: 480px) {
-  .mobile-menu__list {
+  .mobile-menu__links {
     font-size: 35px;
   }
 }
