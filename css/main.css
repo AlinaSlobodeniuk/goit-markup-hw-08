@@ -1100,7 +1100,7 @@ ul {
 }
 @media screen and (max-width: 480px) {
   .mobile-menu__nav {
-    margin-bottom: 206px;
+    margin-bottom: 96px;
   }
 }
 
@@ -1205,7 +1205,7 @@ ul {
 }
 @media screen and (max-width: 480px) {
   .modal {
-    width: 350px;
+    width: 320px;
     height: 581px;
   }
 }
