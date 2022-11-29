@@ -926,6 +926,7 @@ ul {
   .hero {
     background-image: var(--gradient), url(../images/herodesktop@1x.jpg);
     background-size: 1600px;
+    width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -934,6 +935,7 @@ ul {
   .hero {
     background-image: var(--gradient), url(../images/herodesktop@2x.jpg);
     background-size: 1600px;
+    width: 1600px;
   }
 }
 .hero__title {

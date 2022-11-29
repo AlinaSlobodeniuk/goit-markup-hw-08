@@ -34,6 +34,7 @@
     @media screen and (min-width: 1200px) {
         background-image: var(--gradient), url(../images/herodesktop@1x.jpg);
         background-size: 1600px;
+        width: 1600px;
         padding-top: 200px;
         padding-bottom: 200px;
     };
@@ -43,6 +44,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         background-image: var(--gradient), url(../images/herodesktop@2x.jpg);
         background-size: 1600px;
+        width: 1600px;
     };
     
     &__title{
